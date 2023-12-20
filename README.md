@@ -3,7 +3,7 @@
 This is the same as the concatenation state but it's applied with setter
 
 # Basic usage
-
+```lua
 watch({"MyStuff", "data", "isBusy"}, function(returningValue)
     print(returningValue, "isBusy")
 end)
@@ -22,3 +22,4 @@ set({"MyStuff", "myInventory"}, {dop = "5", dep = "5"})
 set({"MyStuff", "myInventory"}, {})
 set({"MyStuff", "IsAttacking"}, true)
 set({"MyStuff", "IsAttacking"}, false)
+```
